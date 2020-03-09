@@ -10,5 +10,5 @@ module.exports = function towelSort (matrix) {
 	  str += matrix[i].reverse().join('');
 	}
   }
-  return str;
+  return str.split('');
 }
